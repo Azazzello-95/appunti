@@ -1,0 +1,57 @@
+Progettazione web
+parleremo del linguaggi css html javascritpt
+
+chi definisce i protocolli di rete:
+ v3c: è un organizzazione  non profit che 
+ crea gli standard.
+ 
+ perche tre linguaggi?
+ contenuto=> html(struttura,sematica)
+ l'estetica=> css
+  dinmaicità=>jascript
+   
+
+  dispense: w3school css html
+ 
+ Html: il browser non va mai in errore, 
+ (lo stesso col css)
+ 
+ semplici regoline: 
+   tag:
+     <q> ..........</q>
+     <q .............<> non hanno contnuto
+     <................> 
+  attributo:
+        attributo="valore".
+
+  inizio :
+       <1DOCTYPE html> :stabilisce il tipo
+  
+  head/head:
+   informazioni di intestazioni che  non 
+   compariranno sulla pagina (head)
+   head è un tag opzionale.
+   <h1>................</h>   
+      un titolo di importanza 1
+   <p>.................</p> 
+     un paragrafo, un 
+     paragrafo non può contenere un altro 
+     paragrafo 
+
+   entità:
+    &entity; è un tipo di carattere.   
+
+
+   nel head si può ssettare l'alfabeto 
+
+   in hml inifinti acapo o spazi sono comunque
+   uguale a un solo spazio.
+
+   link:
+    <a href="url">link text</a>
+
+
+   
+
+     
+  

@@ -1,0 +1,71 @@
+JBA 
+scelgo la librerie la configurazione
+
+
+ENTITY MANAGER
+legge un file di configurazione persistenza.xml
+
+xml?
+ è un super linguaggio da cui venogno derivati
+ altri linguaggi. 
+ prende del testo e lo arrichise di semantica.
+ regole: i tag si devono chiudere al interno di
+      dove è stato aperto.
+
+con xml è possibile creare marck up
+
+i file xml è un file che si può apriere con 
+ editor di testo perche è basato sul testo.
+ questo rende interpretabili i file xml
+ anche da linguaggi diversi.
+
+Json: ha superato xml
+
+il vantaggio dixml è che può sempre non è 
+ binario , quindi è sempre possibile cambiare
+ le impostazioni anche senza i compilatori.
+
+il persistence deve stare dentro una cartella
+ META-INF
+
+
+
+EntityMenagerFactory:
+  (c'è ne uno per applicazione)
+  cerea gli entity manager: è un elemento 
+   consumabile , è quelo strumento che è
+   in grado di gestire le entity.
+ 
+    le entity per poter funzionare:
+     devono essere dei java bean@Erntity
+     devono essere citate nel file jml.
+     tutte le Entity hanno una chiave, l'id 
+     non è omettibile.
+                     
+
+
+Convencion Over Configuretion
+ sono delle scelte per le quali se scrivo le 
+ cose in un certo modo , il rpogramma mi configura
+tutto
+
+ le proprietie coincidono con i nomi di  campi
+    nel db
+  
+ uguale tra le classi e  i nomi delle tabelle.  
+Sintassi del tag
+
+
+
+</persistence>
+
+Approccio Database First
+ creo prima il databse e poi il codice
+
+cod First
+ prima creo il codice e poi il database.
+  attenzione a Droper Create.
+
+JPA
+ è anche in grado di rappresentare un modello 
+ oggetti del db anche molto complesso (fk)

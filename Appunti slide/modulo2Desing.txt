@@ -1,0 +1,128 @@
+LEZIONE 1 BASASI DEL LINGUAGGIO OO
+
+Tecniche basilari 
+ incapsulamento: le classi sono chiuse dagli intetventi esterni
+
+ ereditarietà: le classi ereditano i metodi e gli attibuti delle loro  super 
+     classi
+
+ polimorfismo: un oggetto può essere definito  come appartennete a tutta la 
+     catena di super classi che lo precedeno
+
+ astrazione: l'astrazione consente di creare dei metodi obbligatori per le sttoclassi
+    che  poi queste saranno obbligate a implementare come meglio credono
+
+
+Vantaggi del lingaggio  a oggeti rispetto al imperativo
+  il codice vine riutilizzato
+ 
+  si evitano conflitti e incompresioni
+ 
+  si ottimizza l'incapsulamento.s
+
+
+Elementi essenziali di un linguaggio OO
+ Classi:per i dati (adt), i linguggi che  lo ocnsentono fanno una distinzione tra i
+   l 'interfaccia di un dato (le operazioni che vengono fornite per la sua   
+   anipolazione), e la sua implementazione (ovvero il modo in cui le  infromazioni
+   di  stato vengono conservate e le operazioni che manipolano tali informazioni)
+
+ Metodo: un metodo si puo dire che  sia un "azione" che un determianto oggetto
+    può compiere, diverso è da una routin perchè è strettamente collegato al 
+    oggetto che si sta utilizzando e  non è svincolabile da questo.
+
+ Campo: sono delle porzioni degli oggetti che contengono un dato o un 
+    riferimento a un dato.
+
+ Oggetto: o anche istanza di un classe , occupa uno stato di  memeoria che contiene
+    i vari dati ereditati dalla classe e  ivari metodi a essa collegata, si l'
+    oggetto  a differenza della classe è modificabile.
+
+
+Binding : è il leagame che  può esistere tra valori e identificatori.
+
+Scope = scopi:
+
+
+LEZIONE 2 UML
+
+è un programam utilizzato per progettare un applicazione , attraversp una serei di
+schemi  che  può fare:
+
+ Use Case: usati per definire le caratteristiche funzioanli  di un programma nel 
+   ottica del cliente.
+ 
+ Activity diagrams: usati per descrivere  i flussi di lavoro di un applicazione 
+   utilizzati durante la fase di alisi dei requisiti.
+ 
+ Interaction diagrams: descrivono le interazioni che esistono tra gli oggetti dell'
+  appicazione e si riferiscono a casi specifici.
+ 
+ Class diagram: consente di rappresentare le relazioni che ci sono tra le classi
+  e definiscono quindi la struttura del sistema.
+ 
+ State diagrams: descrivono per i singoli oggetti i possibili stati in cui piò
+  esistere e i passaggi di stato. 
+
+
+
+Case Use 
+ ogni caso 'd uso è composto :
+  
+   nome: deve essere univoco
+   
+   attori: elenco degli  attori coinvolitiu   
+  
+   prerequisiti: trigger
+  
+   flusso degli eventi:
+
+   considizioni d'uscita 
+  
+   requisiti speciali: sono i requisiti che non hanno relazione con la funzionalità
+     del sistema.
+
+
+
+LEZIONE 3 DESAING
+eistono più solozioni per uno stesso problema come possiamo dire quale sia la
+migliore?
+ modificabilità
+ economicità 
+ specificità
+
+Esistono dei pattern che ci possono far distinguere buone soluzioni da cattive 
+ soluzioni, un totale di 23 "regole" divise in 3 famiglie:
+   Creazionali
+      aiuta un sistema a essere indipendnete da come gli oggetti vengono creati
+   
+   Strutturali
+      guidano nella modalità di come classi e oggetti possono essere composti da 
+      strutture più grandi 
+   
+   Comportamentali
+      guidano nella modalità di comunicazione tra gli oggetti e nell' ssegnamento delle
+      mutue responsabilità  
+
+
+
+I pattern sono definiti come soluzuioni a dei problemi in un contesto e sono 
+ definti da:
+   
+    nome del pattern   
+    intento     
+    motivazioni 
+    applicabilità e struttura
+    partecipanti e collaboratori
+    Effetti
+    implementazione e codice di esempio
+    Usi concreti e riferimenti ad altri pattern correlati 
+   
+  A livello di sviluppo OO il GoF(l'insieme di questi pattern) ha individuato
+  delle strategie utili per  uno sviluppo a oggetti migliore.
+  
+  Progettazione per interaccie 
+  Preferire la composizione anzi che l'ereditarietà (orizzontale > verticale)
+  individuare le parti variabili di un programma e incapsualrle.
+  
+  

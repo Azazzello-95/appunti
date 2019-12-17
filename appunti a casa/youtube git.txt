@@ -1,0 +1,15 @@
+git Hub
+bit buched a differenza di git hub non è a pagamento se metti progetti ptivati
+vcs
+
+reposotory: cartella con dentro tutto quello che facciamo diviso tra remote e 
+  sul proprio pc
+
+comandi base di git:
+ git int       per creare la reposotory
+ git status    per vedere lo stato del applicazione 
+ git add       aggiungere i file che verrano aggiunti alla repository
+ git commit    aggiungere i file alla reposotory
+ git push      per aggiungere il codice a un remote reposotory
+ git pull      per prendere il codice da una remote reposotory
+ git clone     clona un porgetto 

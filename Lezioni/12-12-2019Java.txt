@@ -1,0 +1,112 @@
+COME SI FA IM JAVA A PROGRAMMARE SUL WEB
+dovremo installare un webserver
+
+HTTP=protocollo di rete 
+ ha solo due comandi, è una tecnologia molto
+ conosciuta. è  un protoccolo client-Server
+ (beowser=Server).il browser fa una interazione
+ facenod una richiesta.
+ 
+
+ request(client=>Server)
+
+
+Caratterstiche del nostro programma java.:
+ creare un sochet
+ essere multitread
+  
+JavaEnterpraisEditon:
+ è un java che ha anche tutte le classi e le
+ interfacce che servono per disegnare il web.
+ l'http srvlet è una classe di  java che ci 
+ mette a disposizione tutte le cose di cui  
+ abbiamo bisogno per unare il driver.
+ 
+QUali sono le caratterstiche di un web server?
+anche detto server conteiner,
+ esistono tutta una serie di interfacce per
+ il server conteiner.
+ 
+ un server conteiner che useremo noi:Tomcat
+ 
+ ciascuna delle api al interno di un webServer
+ ha una sua storia.
+
+ cosa ha dentro Tomcat:
+  una cartella bin: eseguibile 
+               lib:jar 
+               
+
+
+
+Configurare il workspace
+ nome del progrtto:
+  
+
+ il runtime del wb modul non è la jvm ma il
+ conteiner (TomCat)
+
+  
+ (i web server che ci propone Eclipse in relatà
+  non ci sono se io non li ho in stallati)
+
+ una volta aviato:
+ Cartelle  
+ 
+(i sorgenti non sono nella cartella src ma 
+  dentro java-resurcis) questo perche in 
+  un programma web ci sono dentro più cose
+  oltre a a java
+  webcontet(contiene le pagine html)
+  
+  per far partire tutto l'ambiente non devo fare
+  esegui.prima devo mettere tutte le calssi in 
+  un conteiner. per farlo partitre dobbiamo fare
+  la run on server
+ 
+ i war contengono sia le classi che la roba web
+ 
+  
+AVVIO
+
+di defoalt il tomcat va sulla porta 8080 
+
+con la parola soncronaise tomcat ci dice che 
+ quello che abbiamo fatto è stato messo nella
+ jvm
+
+ URL parti:
+ schima=indica il protocollo 
+ host: può essere un nome dns o un indirizzo ip
+ port:può essere omesso , se omoesso il suo 
+       valore è 80 con http o 843
+
+ il contest rout: è il nome del progetto, 
+ è il persocro delle cartelle che ho messo
+ dentro il web content tutto quello al 
+ interno dei %% è java alinterno
+ di un jsp file, naturalemnte java scrive 
+ sulla console se voglio scrivere sul browser
+ devo  fare %=(stringa)
+
+
+ Come vedere cosa succede sulle pagine web
+ tasto destro ispeziona  
+ 
+ JSP: è  una tecnologia per fare lo script di
+   java al interno del html.
+
+ la jsp non viene mandata al broswer, è il 
+ suo risoltato che viene mandato al beoswer, 
+ potenzialemnte qualsiasi programma java che è
+ in grado di fare del testo pò fare roba web
+
+ Servlet
+  calssi java per il web, alla fine è l'unica
+  cosa per dialogare con un server.
+  gli others sono nome:valori
+  
+
+ tutti i codici  di risposta che inizano per 200
+ sono positivi , quelli dal 400 al 599 sono 
+ negativi
