@@ -1,0 +1,66 @@
+COLLETION FRAMEWOEK
+
+Hasch= è una trasformazione di byt in byt
+
+LIst = arreyLIst
+ get(Oggetto o) = ci da  la posizione di 
+        un elemento.
+
+ a differenza del arrey nella lista si può 
+ rimuovere e aggiungere oggetti con dei 
+ metodi specifici (add,remuve,insert),
+
+
+set = Hash set
+ set è da immagianrsi come  un insieme non c'è
+ un ordine con un indice numerico, non ci può
+ essere due volte lo stesso elemento.Per il 
+ restofunziona come un Arrey. 
+
+map = Hash set
+ rappresenta la possibilità di mettere via gli
+ oggetti ma da una possibilità di indicizzarli
+ come preferiamo, in altre parole va a costruire
+ un dizionario.
+ keySet= l'insisme delle chiavi,
+ keyValue= l'insieme dei valori.
+
+INPUT AUTPUT
+
+java IOA
+
+Surs = input =scrittura
+
+Destinetion =outputs = letura
+
+esistono vari  modi di leggere e scrivere.
+
+I file
+ esistono tutte dlele tool per lavore sul
+  file system.
+  
+  Java sa che sistema oeprativo c'è sopra
+   ma devo comunque creare i percorsi giusti
+   in base al sistema oeprativo 
+
+tutte le Io sono chaced exexption 
+
+Classe buffer/adnwriter
+ per costruire un buffer prima devo costruitre 
+ un writer.
+
+ quando scrivo il writerposso inventare un file
+
+ Flash:svuota tutti i buffer e aspetta il continuo
+  delle operazioni. questi ci da la sicurezza di 
+  salvare tutto quello che scrivo, ma mette il 
+  programma in sospensione. 
+
+  se devo usare caratteri speciali devo usare
+   due volta il\\
+ 
+  non possiamo scrivere direttamente su C\\ su 
+  windos 
+
+ Scanner:
+  

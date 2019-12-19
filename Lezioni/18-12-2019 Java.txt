@@ -1,0 +1,84 @@
+Ripasso 
+
+Risorse statiche: 
+ sono solo file
+
+Scriptret jsp
+ alterna l'html al codice 
+ vatnaggio: in una pagina differenzia lo 
+            statico dal dinamico
+ 
+ svantaggio: in un unico file sono  
+             inserite due tecnologie diverse
+LEZIONE
+
+ 
+(Pattern)Model view controller MVC
+  serve per separere i linguaggi html e java
+
+ come funziona?
+  [nel url può essere insetito un metodo
+   che ci dice il tipo di richesta del
+    broweswer (leggereGet ScruverePost)]
+  
+   dopo questo trova una servlet che svolge 
+   il tuolo di controllo , cerca di andre
+   a trovare le informazioni che servono al
+   utente (le  informazioni dono dette
+            model) (Servlet)
+
+   il controller poi si  affida a dei model
+   per calcolare le informazione(JavaBean)
+  
+   la view è un programma che restituisce i 
+    dati graficamente.(JSP)
+
+
+I PROJECT 
+ dainamic ha sia le Servlet che le JSP
+
+
+
+LAVORO FATTO IN CALSSE
+JSTL: sono un insieme di tag che servono 
+      per fare clcli roba semplice
+      ci permette di fare anche i cili nella
+      jsp  
+EL: consente di leggere i campi contemporaneamte
+    java e http.
+
+
+
+webService: sono server ma non producono html ma
+solo dati.
+  rappresnetazione di questi dati :Json ,Xml.
+  XML:
+   iniza sempre xmle, poi c'è bisogno del root
+   element(che è il nome della "tabella"),e in 
+   mezzo le "colonne."
+  Json: è meno rigoroso di xml, jakson è il
+   nome delle libreire èer serializzare 
+   deserializzare.
+ 
+
+ la rappresentazione dei dati  si chiama in xml
+ o simili si chima serializazzione  e il 
+ contraio è deserializzazione.(jaxb)
+ è quello che traduce l'xml
+
+ALTRO 
+gli url sono cas sensetive
+i bean vengono messi nel packege calss
+le JSP vanno nei web content
+RequestDispacer() è una classe che gestische
+iltraffico , spaccia una richiesta da un progetto
+ java al atro.
+
+nel web inf posos mettere le cose che nascondo
+ al claiant
+ 
+in ogni interazione di un browers con un server
+è una request
+
+ovviamnte ogni servlet è collegata a una singola
+azione che può fare l'utente.

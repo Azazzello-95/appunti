@@ -1,0 +1,32 @@
+IMPLEMENTAZIONE DI UN ALTROPATTERN
+
+DAO:
+ Data Acces Project
+ è un modo per avere a che  fare coi database.
+ un database è più resiliente, conserva i dati
+ al interno del databse, il dao, permette di 
+ poter utilizzate il meglio dei due mondi.
+ per far ciò creaiamo un classe con la sola
+ responsabilità di trasferire i dati dal db
+ alla ram (name classeDao). dao crea una 
+ collezione di oggetti tipizzati mappando
+ tutte le colonne del db sul progrmma principale.
+ questo sistema è detto implementazione tra due
+ strati.Il punto è utilizzare un databse dove
+ slavare tutti i dati. I dao ovviamnete sono
+ uno per classi.
+
+ Crud: 
+ operazioni che posso fare su un database(
+ aggiornare cancallare leggere , aggiornare.) 
+ 
+ ipa:
+  è un atuomizzatore di dao. 
+ 
+ sequelpower arckitect: softwer che permette di
+   creare diagrammi er(entità relazione).
+ 
+
+CURIOSITà 
+ il database dovrebbe essere utilizzato solo 
+ per salvare le informazioni persistenti,

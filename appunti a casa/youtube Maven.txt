@@ -1,0 +1,21 @@
+è  un toll che ci permette di scaricare da java le dipendenze di cui abbiamio 
+bisogno.Si può anche dire che maven non sia altro che un esecutore si plugin in
+alcuni di questi plugin sono già su man altri sono presenti sul sito e devono
+essere aggiunti al pomp
+
+Come si utilizza maven?
+ si crea un progetto maven dal ide
+ dopo che creiamo il file troveremon un documento in xml chiamato pomp che contiene
+ le  cordinate del progetto il formato e  
+ 
+ nella cartella src abbiamo la seguente diramazione:
+ scr/main/java: classi del applicazione 
+ src/main/resources:risorse del applicazione (immagini e testo)
+ scr/test/java: le calssi Java per il test del applicazione
+ scr/test/resources:risorse per fare il testing.
+
+ AGGIUNGERE LIBRERIERE
+ tndenzialmnte sul sito ufficiale maven trovo il pezzeto di xml da aggiungere al
+ pomp  
+   https://mvnrepository.com/
+ 

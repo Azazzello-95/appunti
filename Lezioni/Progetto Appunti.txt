@@ -1,0 +1,64 @@
+DIFFICILMENTE FINIREMOILPROGETTO ANCHE SE IL
+TENTATIVO è AVVICINARSI AL PIù DIFFICLE
+
+QUIZ ??
+
+GASADVISOR
+creare un utente guest user
+guest può visionare i diversi carburanti
+costo medio della zona nella home
+user può fare una recensione della qualità
+pianificazione del viaggio in abse al costo
+ della benzina 
+l'admin controlla la statistica.
+un ptemio in cashBack per glu user più attivi.
+
+PETSHERING
+chst per mettersi in comuniczione 
+recensioni e feeback
+feedbeck per aquistare dei buoni.
+collare dato che da informazioni sul cane
+manda messagi quando l'animiale è in un psoto
+ strano
+
+
+FriedPlanner
+in base agli appuntamenti di tutti 
+ cerca un giorno libero.
+Gruppi chiusi  
+ funzionamento chat  
+               calendario
+scelta di cancellare o archiviare la memoria.
+sceglire se rendere gli impegni visibili o
+far vedere solo le specifiche.
+
+SocialStaz
+chatbot 
+propone nuovi contnuti  al utente in base a 
+queelo che scrivi, tutti i dati utilizzati in
+questo modo vengono raccolti via web.
+l'utnte quando legge un contenuto da  un  
+   feedback.
+costruzione di un data base.
+ alternativa
+fa delle statistiche su come va il social.
+l'idea e di far capire al utente quale è il
+ social più adatto a lui in base ai suoi 
+ interessi  e a chi lo usa.
+
+Gestionale
+4 figure: ospite utente, amminsitratore supporto
+utente: ospite+importa esporta
+applicazione vs web applicazione ha più roba
+ospite: home log in 
+amministatore :gestisce gli utenti
+supporto:accede al gestionale per aiutarlo
+
+Mess
+è un sistema tipicmanete presente nel indutria
+4.0. il punto è la fusione del application con
+la parte classica del gestionale.
+un itetfaccai web con cruscotto
+un app:riceve notifiche di anomalie e permettere
+ di rispondere per tempo.
+forse integrazione col fisico.

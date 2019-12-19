@@ -1,0 +1,131 @@
+Sviluppo di applicazione android
+
+DOAMNDE
+
+ definizioni classi astratte e interfaccia
+ 
+
+ sistema oeprativo 
+
+ jde
+
+ kerner
+
+IMPLEMENTAZIONI
+ google non prmettee di implementare oltre
+  la versione 4.4 kitcat
+
+ a ogni implementazione in più viene fornita
+  roba in più (hanno aggiunto delle api)
+
+ esiste la retrocompatibilità
+ 
+ nel implementazione 21 hanno cambiato la 
+ macchina virtuale.
+ 
+
+
+
+
+ARCHITETTURA DI SOFTWER
+
+ kerner: linux
+ 
+ hal : interfaccia con lo strato superiore 
+       che contiene la jvm. 
+ 
+ dalvik: è la macchina virtuale di android, 
+       questo mi permette di poter programmare
+       applicazioni per macchine che hanno 
+       hardwer differente.l' unico limite è
+       l'interfaccia grafica.(in relatà oggi
+       dalvick è stato sostituito da art)
+ 
+  perche art?:interpreta il pacchetto zip
+    dela appliccazione e alla più la utiliziamo
+    più aumentano le performance fino al 
+    punto di rendere l' applicazione "nativa" 
+
+
+
+
+
+ 
+DISTINZIONE FRONT END BACK AND
+
+ be: è al difuori dei dispositivi su cui 
+     funziona (i database)
+
+ fe: è strettamente collegato al hardwer(i 
+      bottoni)  
+
+
+ 
+
+ le parti più basse sono programmati in 
+ linux e quindi le parti più basse sono 
+ programmate in c , e più in alto c'è la
+ jvm
+
+LIBREIRE 
+ sqlite: è un dbms che riesce a gestire i dati
+  in modo molto leggero 
+
+ACTIVITY
+ sono le singole schermate de computer.
+ è una classe che gestische le shermate, e
+ che crea gli eventi.
+   Intent è il comando che
+       ci fa cambaire shemrata.
+  
+
+
+SERVICE
+ è un componente che mi consete di gestire in
+ background certe attività
+ (le priorità della grafica hanno priorita 
+ maggiore)
+
+CONTENT PROVAIDER
+ mette in comunicazione un applicazione con un  
+ altra.
+
+EVENTI
+ android oltre che a oggetti è programmato
+ anche con un linguaggioa eventi , ciò è
+ che hanno un imput che non è dato dal
+ utnete ma anche dalla condizione del hardwer
+
+CICLO DEL ATTIVITà 
+è una cotruzione di un circuito dei vari
+passagi da  una schemrata al altra. 
+Ottimizzando anche il sistema emttendo in pausa 
+certe attivity e attivandone altre.
+
+
+APPLICAZIONI ANDROID
+zip  con :
+  eseguibile 
+  shermate
+
+
+CHE COSA SONO GLI EVENTI:
+ rappressenta tutti gli input che possono 
+ attivarsi , che vanno poi a modificare gli
+ il funzioamneto dle programma
+
+
+
+POMERIGGIO 
+USE CASE  
+WIRE FRAME
+RELAZIONE
+DEFINIRE IL CONCETTO DI CATEOGIRA DI 
+APPARTENENZA
+ABBOZZARE ARCHITTETURA DI SISTEMA
+MATERIALE UTILIZZATO
+
+
+BISOGNA FARE SIA WEB CHE ANDROID
+
+ 

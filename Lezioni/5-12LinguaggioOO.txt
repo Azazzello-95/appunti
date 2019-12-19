@@ -1,0 +1,105 @@
+JDBC
+costruiamo sopra il jdbc  fa una mappatura di 
+oggetti su tabelle. partiamo dal presupposto
+che il dao è molto  ripetitivo come istruzioni.
+il dao è un Pattern. Ma per ora chiudiamo qua. 
+
+MULTITRADING
+riuscire a fare più cose contemporaneamnte,
+questo è molto importante per le interfaccie 
+grafiche.il sisteam operativo non si preoccupa
+di quanti processi parto contemporanemante.
+bisognara fare delle piccole considerazioni sul
+tempo. tread è la classe che serve a noi.
+
+tread.sleap(int time): sospende la funzione 
+ corrente per  un numero di millisencondi
+ stabiliti.il tempo è stabilito dal clok della 
+ cpue quindi diepnde dal consumo della cpu.
+ qunado andiamo in paralello  non è più 
+ prevedibile l'ordine con qui le cose finiranno.il programma
+ principale non finisce finche non finiscono 
+ tutti i tread.
+
+ 
+ 
+tread.run(): 
+
+trad.start(): per far partire start bisogna fare
+ l'override di run
+
+
+tecniche relative al tread:
+estendere tread.
+
+implementare l'interfaccia runable.
+ il vantaggio di runabel è che non mi gioco
+ l'ereditarietà. è il tread che col runnable
+ fa la differenza.esistono diversi modi per 
+ implementare runable.
+ 
+Implementazione anonima di un interfaccia.
+ possimao creare il trip runnable senza dover
+ per forza definire una classe.
+
+LAMBDA
+la lambda funziona se e solo se l'interfaccia
+ contiene un solo metodo.
+
+CONSIDERAZIONI
+java non ha un concetto di lambda molto utilizabile.
+andare a cercarsi l'operatore "freccia";
+
+functional interface:
+ è un interfaccia che contiene un solo metodo,
+ in sostanza è il solo modo per dare un nome
+ a una funzione.
+
+PROGRAMMAZIONE FUNZIONALE
+non parlo più di varaibili ma di funzioni,
+passare una funzione a un argomento di una 
+funzione è un approccio funzionale.
+
+CLOUSURE
+chiudo creo una sezione di memoria durante l'
+esecuzione tale per cui  alla fine del 
+esecuzione del programma questo spazio viene 
+cancellato.questo tipo di approccio aumenta le
+prestazioni.
+
+NEATWORKING
+Sochet: 
+ è un pezzo di computer ingrado di dialogare 
+ sulla rete, su un computer non possono esserci
+ più processi uslla stessa porta, sochet
+ apre una porta sul computer.
+
+ServerSochet():gli dai in input una porta (
+ consiglio dare una porta sopra i 5000), quando
+ apro il meotodo devo gestire un eccezione AIO
+ questo perche il net è al difuori della 
+ periferica.Server sochet appena gli serve gli
+ ariva una connesione gli fabbrica un sochet.
+ acept è  un metodo che ascolta rimanse sospeso
+ fino a quando qualcuno nonha bisogno di  una 
+ conessione, poi quando una ha isogno di un 
+ sochet , accept lo crea e  poi muore.La classe
+ ha dei metodi inputStream  e outputStream,
+ questo ricorda molto  la lettura di un File.
+ naturalemnte a tutto ciò va collegato il 
+ multitradign in modo da dare un senso al tutto.
+
+print.writer(): serve per pritnare cose su un 
+output che non sia la mia console.
+
+PUTTY
+fa delle generiche connessioni di rete, non fa
+prrte di java è  una cosa a parte.
+
+ex
+creare un server che quando noi ci connettiamo
+sulla sua porta 5000  accetta due tipi di 
+comando new e list , quando facciamo list 
+ci da un elenco di contatti che abbiamo sul
+my sql e quando facciamo new salva un nuovo 
+record nei contatti.

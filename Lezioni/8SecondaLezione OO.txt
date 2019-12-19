@@ -1,0 +1,85 @@
+TEORIA
+Incapsuletion 
+
+JavaBean
+ programma java a cui è stato appliato 
+ l'incapsuletion.
+
+
+Getter
+ 
+Setter
+
+Desaing pattern
+ soluzioni che funzionano bene che 
+ qualcuno ha già trovato.
+
+This
+ serve per riferirisi a un istanza della 
+ classe stessa.
+ 
+
+Metodo costruttore
+ metodo che ha lo stesso nome della classe
+ in Java come  in altri liguaggi i metodi
+ costruttori sono già disponibili. 
+ I cotruttori danno la possbilità  di impostare
+ valori di  deafolat per i parametri dei nostri
+ oggetti. 
+
+Costruttore vuoto
+ costruttore senza nessun argomento
+
+Over load
+ meorodi con lo stesso nome
+
+Creazione oggetti immutabili
+ si creano con classi senza setters e con 
+ costruttori di tipo inizializzatori
+
+Isolamento.
+
+Condivisione del codice:
+ git è sistema div ersionamento (vcs)
+
+
+PROGETTAZIONE SOFTWEARE
+ 
+Sviluppo guidato dai casi d' uso:
+ (usae case) si cerca di trasformare
+ una descrizione informale fata dal
+ committente(non informatico) in un
+ progetto informatico conreto.
+
+Fasi dei proggetti informatici 
+        analisi dei requisiti:
+        use case           
+
+
+
+
+CURIOSITA
+
+Programmi scrititi da altri:
+  non esiste un modo diretto per imparare
+  ci si aiuta con le convenzioni e 
+  con la conoscenza dei pattens.
+
+
+REGISTRAZIONE GITHUB
+https://github.com/join?source=header-home
+
+COMANDI 
+
+ cloud databse commit 
+ databse cloud push 
+iSCRIZIONE
+
+ Username 
+ Azazzello-95
+
+ Mail 
+ d.candalino@itsrizzoli.it
+
+ Password 
+ mail tiscali 

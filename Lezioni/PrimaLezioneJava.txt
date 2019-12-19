@@ -1,0 +1,114 @@
+MATTINA javaileSystem
+POMERIGGIO  javaFloa.
+
+CENNISTORICI
+
+ Motitivazione: progrmamre più sitemi operativi
+   diversi,per questo è importante lo sviluppo
+   della piattaforma (jdm);
+
+ ReferanceImplementation:sono gli "standard" di
+   come si dovrbbe fare con un linguaggio.
+
+ JavaCominityProcet: è un gruppo di persone che 
+   pubblicamnete decide cosa ci sarà al intenro
+   delle ptossime versioni di Java.
+
+ARCHITETTURA
+
+ pattaforma=runTime+Librerie.
+
+ jvm      : jse=standard.rdition (applicazioni
+               desktop).
+           Jee= enterprese ediction(applicaizoni
+               di rete)
+           me: lavora con poce risorse
+           
+ 
+ Strongly tipe: java non può utilizzare un 
+   oggetto se non è  tipizzato.
+ 
+ PrimitiviVsRiferimento: 
+
+   promitivo:preapataun certo numero di byte.
+   metre quell idi riferiemnto contengo un  
+    indirizzo.                           
+                          
+ 
+
+
+REFERENCE STYLE
+
+String: con i "" delimito le stringhe con i ''
+     idnetifico i char, i valori di String
+     sono immodificabili.
+   
+     
+
+quando creo un oggetto non primitivo  creo due 
+ cose una locazione di memoria con l 
+ identificivo del oggetto  e l'indirizzo del
+ con dneto i dati del attrivìuto  e  l'attributo.
+
+quello che succede al intenro dei metodi non
+va a intaccare il resto della memoria, se 
+usiamo void, anche le modifiche non vengono
+realemnte affettuate.
+
+
+static appartine al istanza della classe
+non static appartiene alla classe.	
+
+
+	POMERIGGIO
+PROGRAM FLOO
+
+  lasequenza delle istruzioni determina il
+  flusso del programma
+
+
+ Modi per alterare il Floo
+   Branking: sono le if e le swick
+      (brencing=ramificazione).
+       
+      else if (): permette di  fare if 
+          annidate.
+    
+     swick: permette di testare tuttii possibili
+       casi che vogliaomo testare,"swick(a){
+        case 1: somting};
+        case 2 :somting2};"
+        mettendo un breack posso fare in mood
+        che non segua gli altri casi se la mia
+        variabile è uguale al qulcosa.
+        defoult: si attiva se tutti gli altri
+        casi non si sono verificati.
+ 
+
+
+
+   
+   Looping:For(unIstuzioneSingola,CondPermanenza
+               istruzioneFineCiclo){istruziomni}
+          
+          
+           forEch(è un for per gli  arey);
+               for(int num : arreyNome)
+           
+          While (espressioneIfTueCiclo){}
+         
+         dowhile: do{qulcosa}while(condizione)
+
+Procidur coner: semplicemne chiamo una funzione 
+          dentro un altra.
+
+          
+
+
+CURIOSITA
+
+++ a prima incrmeenta poi  si usa
+a ++ vicevers
+
+
+chiamate di metodo 

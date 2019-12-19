@@ -1,0 +1,39 @@
+Aprendimento: 
+
+A che cosa ci si riferisce  on 4.0?
+ usa i sensori
+
+possibilità di csviluppo umanInterface.
+
+Internet of thongs: oggetti virtualio no
+ che utilizzano Intenret per mantenrsi dinamici.
+
+al orale potrebbero fare doamnde stronze tipo
+cosa è un database.
+
+
+MATEMATICA 
+rete neaurale:
+ è un sistrma tale per cui si crea una connesione
+ tra diversi elementi in modo che sia in 
+ grado apprendere nuove informazioni.
+
+ le reti neurali ci aiutano a trovare le
+ correlazioni tra degli eventi in mido che poi
+ sia possibile costruire un programma che la
+ sostituisca
+
+Statistica 
+  descrittiva 
+  referenziale(c'è  dentro anche la  probailità)
+
+Moda 
+MEDIA
+mEDIANA 
+dEVIAZIONE sTANDARD : LA MEDIA DEGLI SCARTI
+
+COOVARIANZA
+
+REGRESSIONE LINEARE RETTA
+
+CHE COSA è LA PCA

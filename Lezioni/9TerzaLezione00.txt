@@ -1,0 +1,95 @@
+INFOMRAZIONI DI SERVIZIO 
+
+Suggerimenti 
+ prendere appunti su cosa approfondire: doamnde
+ parole pricnipali
+
+RIASSUNTO 
+ 
+ Introdotto le  logiche logic oriented
+   abbiamo visto la tecnica del incapsulamento 
+   visibilità dei membri "public and pablic"
+   information hiding
+   ruolo che hanno i costruttori
+   creato stati immutabili.
+   il vantaggio del isolamento
+   GIT 
+
+
+ 
+  Sviluppo softwere life style 
+   tecnica di progetazione per casi d'uso. 
+    analisi dei requisiti 
+
+ 
+  Tools
+   git
+   uml  
+ 
+OBJET OREIETECTION
+ 
+Ereditarietà
+ un obbiettivo fort del paradigma OO
+ era quello di non dover riscrivere ogni volta
+ lo stesso codice.L'ereditarietà consente di 
+ definire che un classe prende una  parte del 
+ programma da un altra classe. Dove la classe
+ che sta sotto si chiava sub class e quella che
+ sta sopra si chiama super class.in java non 
+ si posono avere più super class per una sola
+ sotto classi, questo perche l'ereitatietà 
+ ultipla è molto difficle da gestire (problema
+ deldiamante). non ècosi con c++.in java tutti
+ gli oggetti sono sottoclassi della super class
+ object.
+
+Protected: 
+ è un tipo di visibilità che è visibile anche 
+ nella direzione super classe , sotto classe.
+
+Convenzioni
+ ordine nella costruzione delle classi:
+ campi,operation
+ 
+OverRide
+ è la  possibilità di  ridefinire un metodo che già è stato
+ definito in una super classe 
+
+Metod Signature 
+ sono le caratteristiche dei metodi che  li 
+ distinguono l'uno dal altro:(nome , public,
+ n. r tipo di input.).
+
+Javareflection
+ è un sistema con cui è possibile, vedere tutti
+ i metodi di  una classe compresi quelli 
+ ereditati.
+
+TOOL
+ Git
+ Eclipse uyilizza diverse prospettive in base a
+ quello che facciamo
+
+CLONE
+ comando utilizzato per copiare una directory 
+ sul mio pc. se modiifchaimo i file che 
+ scarichiamo dal prof, quando poi lui  andrà
+ a modificarlo il tutto  andrà in conflitto.
+
+https://github.com/andrea-colleoni/itsar1920.git
+
+PROJET DEVOLPMENT LIFE SRTILY
+
+Waterfalll project
+ metodo per organizzare un progetto, decidendo
+ un ordine: ananlsi , progettazione, 
+ implemnetazione , manutenzione. più è piccola
+ un azienda meno saranno specializzati i ruoli
+ rispetto al ciclo , più è grande l'azienda è
+ grane più l'azienda è specializzata.Naturlmente
+ l'automzione aiuta in tutti i campi.
+
+Esercitazione 
+ Utilizzare l'UML per fare le classi dis tamattina
+
+

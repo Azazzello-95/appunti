@@ -1,0 +1,38 @@
+RIASSUNTTAZZO
+Breach condizionali (cicli )
+Gestione degli errori
+API: Framework (List(Arrey list) , Map(hashmap)
+               , Set(hasSet));
+IO:il concetto di Stream.
+
+CONTINUIAMO CON L'IO
+
+Gestione della condivisione di una risorsa.
+ resurs blok (un programma ha la priorità
+              su una risorsa)
+ 
+ resurs shere (una risorse viene condivisa 
+               contemporaneamnte da più rpogrammi)
+
+Applicazioni DIstribuite:
+ applicazioni che  utilizzano contemporaneamnte
+  lo stesso databse. 
+
+Connesione ai datbase.
+ si apre una connesione di rete a un indirizzo 
+  particoalre (127001) l'indirizzo  del 
+  proprio pc.in Hdei la porta tipica è(3306)
+  
+ per accedere a un server devo indetificarmi 
+  quindi devo identificarmi perche questo p
+  perche il server è esposto alal rete e quidi
+  chiunque può accedere.
+
+  Jdc; la connesione java databse, per conntere
+   java al databse ho bisogno del Driver 
+ 
+ 
+CURIOSITà
+ 
+ sdk kit per sviluppatori per creare terxe
+   applicazioni che si appogiano su altre

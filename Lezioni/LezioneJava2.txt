@@ -1,0 +1,79 @@
+System.in()
+LA CLASSE SCANNER 
+serve per leggere gli quello che arriva in 
+Stream
+
+ ogni volta che usiamo un metodo next questo
+ sospende il programma a prescindere da dove
+ si trovi ,ogni next è tipizzato.quando premo
+ invio lo scanner fa ripartire il programam.
+ 
+ è buona norma una volta finito di usare la 
+ risorsa chiuderla.
+
+Mrìetodi utili String
+  toString= trasforma in stringhe 
+  
+   indexOf ci restituisce la prima volta che
+   trovo una sub String.
+
+Index of come funzioan se l'rst è più grande
+ della mia stringa.
+
+LOGICA BULEANA
+|| al primo true smette di calcolare.
+
+ECCEZZIONI
+sono funzionamenti di tipo diverso , gli 
+errori non sono gestiti del linguaggio  ma 
+dalla virtual machine la eccezioni sono una
+sorta di if
+
+il costrutto che ci permette di fare ciò è try
+quello che metto nel blocco try e quello che 
+penso possa andare storto.
+
+chac sspecifica tra tutti gli errori possibili
+quali voglo gestire e restituisce una risposta
+in caso di errore.
+
+try { Stampa(X); }
+catch (ErroreStringaVuota e) {
+  System.out.println ("Spiacente");
+}
+
+
+posso mettere più tipi di catch
+
+
+abbiamo due tipologie di radici per le eccezioni
+cheked Exeption 
+uncheked RunTimeExeption
+
+ Cheked  : eccezione risolvibile (il programma 
+          cerca di farti fare quacoslatro.)
+ 
+ uncheked : eccezione non risolvibile( il programma
+          si suicida)
+
+LE COLLEZIONI
+molto utilizzate da sempre, servono per 
+raccogliere in un unica struttura dati una 
+serie di oggetti da utilizzare tutti insieme.
+
+ 
+ Arrey utile usare i fro each
+
+in base a cosa sis ceglie un argortimo 
+piuttosto a un altro : complessità 
+computazionale
+
+Freane Woek : risolve problemi generici in 
+  un certo modo
+
+Generics: risolvono il problema di definire
+ un oggetto. 
+
+ List: è come un arrey ma ha implementato
+   dentro molti metodi utili, che mi aiutano
+   a lavorare.

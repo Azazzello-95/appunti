@@ -1,0 +1,20 @@
+Arogmenti analizzati
+ DATABASE 
+1 conessione 
+2 il dao 
+3 JDBC
+4 JPA
+
+ MULTITRADING
+5 Networking
+
+6 JBA
+ 
+7 WEB
+8 JSP
+9 TOMCAT
+
+Workframe
+Courriculum 
+
+giorni a disposizione 20

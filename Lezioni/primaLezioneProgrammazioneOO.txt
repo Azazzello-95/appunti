@@ -1,0 +1,101 @@
+
+
+COLLEZIONI
+
+Numeration:c'è unn costrutto aposta su java.
+
+metodo: prima lo starMLM
+        scrivo  tutti i "nomi" delle variabili e
+          delle operaioni.
+
+ATRAZIONE
+concetto per il quale, a volte con determinati 
+oggetti si deve poter fae una cosa ma 
+ancora non si sa come farla. io posso definire
+un oprazione , cosa restituisce , quali 
+argomneti acceta , senza pero dichiare le 
+istruzioni. se una classe ha un metodo anstrad
+allora anche la classe saraà astratta.Una 
+classe astratta è  una classe con la quale 
+non posso creare oggetti.Quando implementero  
+il meotodo astratto in reatlà non faro
+un overload. i mmebri astratti  sono tutti 
+vincolanti , devono sempre essere definiti.
+
+questo vinvolo porta a  uo stile di 
+progettazione chimato desing by contract.
+
+una classe totalemnte astratta è un interfaccia.
+ qualsiasi cosa al interno del interfacciaè
+ public   
+
+
+Possibili domande 
+ interpretare i grafici ulm
+
+
+DESING
+API: application.programming.interface   
+   creo prima le interfaccie e poi vado a 
+   programmre tutti il resto
+
+mezzi di sviluppo agail
+
+i test li  fanno i programmatori che hanno una  
+conoscenza approfondita della amteria.
+
+
+Desing Pattern
+KISS
+
+SOLID
+single resposnavility: ogni classe dovrebbe
+  avere un unica responsabilità.
+
+principio aperto chiuso: una classe dovrebbe 
+  essere aperta alla estensioni ma non alle
+  modifiche
+
+oggetti dovrebbero essere sostitutii con dei
+ sotto tipi senza troppi problemi.
+
+segregazione delle interfaccie: meglio più
+interaccie specifiche che una genrica.
+
+inversione delle dipendenze: una classe dovrebbe
+dipendere dalle astrazioni e non da classi 
+concrete.
+
+
+VERIFICA 
+ varie doamnde tutte chiuse
+
+ESERCIZIO
+sui mezzi , creare un programmma che faccia
+in mood che i miei vari  mezzi di  trasporto
+abbiaano  un sebatoio con una certa capienza
+e ci saranno alcu i mezzi a cui non sara 
+neccessario fare riferimento (benzina, gasolio
+elettricità,kerosene),consumo in km al unità.
+un totale kilometri percorsi, uno stato,
+caratteristiche princiapli, la velocità.
+
+l gara deve prendere un mezzo per ogni tipo. 
+Al inizio dovra fara riferimento  di una 
+quantità  di rifornimento casuale.
+
+poi ogni mezzo dovrà percorrere un kilomtro alla
+volta fno a esaurire il carburante o fino
+al raggiungimneto del traguardo.Il traguardo è
+in kilometri casuale.
+
+velocità massima in kilometri al minuto.
+
+
+aereoda turismo 
+iltreno passeggieri
+l'aliante 
+la bicicletta
+piroscafo
+la metropolitana 
+bus 
